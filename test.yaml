@@ -1,1 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Test_Comp_Publish_mod
+  title: TestCompPublish_mod
+  description: TESTING
+  tags: []
+  links: []
+  annotations: {}
+spec:
+  owner: default/backstage-owners
+  lifecycle: deprecated
+  type: service
+  providesApis: []
+  consumesApis: []
+  dependsOn: []
+  dependencyOf: []
+  fullAccess: []
+  limitedAccess: []
+  blockedAccess: []
 
